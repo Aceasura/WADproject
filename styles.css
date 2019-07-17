@@ -1,0 +1,166 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#000000;
+	background-image: url("https://i.gifer.com/133C.gif");
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+	}
+	
+	@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.glitchpic{
+width:585px; 
+height:639px;
+float:center;
+position:absolute;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+h2 {
+	color:#f441a6;
+	font:50px 'courier';
+    position: absolute;
+    left: 650px;
+    top: 210px;
+}
+
+.desctext {
+	color:#5bc184;
+	font:22px 'courier';
+    position: absolute;
+    left: 920px;
+    top: 320px;
+	direction: rtl;
+	background-color: #000000;
+}
+ 
+.wrapper { /*for the login and signup button*/
+    position: absolute;
+	right: 190px;
+	top:280px;
+}
+/* Set a style for all buttons */
+button {
+    background-color:#681429;
+    color: white;
+    padding: 14px 20px;
+    margin: 200px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+ float: center;
+
+   
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+/*the popup thing*/
+.imgcontainer {
+	font:16px 'courier';
+	background-color:#000000;
+	color:#f441a6;
+    text-align: center;
+    position: relative;
+}
+
+img.avatar {
+    width:30%;
+    border-radius: 20%;
+}
+
+.container {
+	font:16px 'courier';
+	background-color:#000000;
+	color:#f441a6;
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #5dd8a5;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
